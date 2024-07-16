@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.betek.cd_and_ci.CdAndCiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-16T12:59:00" hostname="MANUEL-PC" time="0.85">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.betek.cd_and_ci.CdAndCiApplicationTests" time="0.85"/>
+  <system-out><![CDATA[07:58:58.815 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.betek.cd_and_ci.CdAndCiApplicationTests]: CdAndCiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:58:58.941 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.betek.cd_and_ci.CdAndCiApplication for test class com.betek.cd_and_ci.CdAndCiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-16T07:58:59.495-05:00  INFO 2052 --- [cd-and-ci] [    Test worker] c.b.cd_and_ci.CdAndCiApplicationTests    : Starting CdAndCiApplicationTests using Java 17.0.11 with PID 2052 (started by manue in C:\Users\manue\Downloads\cd-and-ci\cd-and-ci)
+2024-07-16T07:58:59.497-05:00  INFO 2052 --- [cd-and-ci] [    Test worker] c.b.cd_and_ci.CdAndCiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T07:59:00.912-05:00  INFO 2052 --- [cd-and-ci] [    Test worker] c.b.cd_and_ci.CdAndCiApplicationTests    : Started CdAndCiApplicationTests in 1.695 seconds (process running for 3.043)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
