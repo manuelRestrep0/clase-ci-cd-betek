@@ -14,6 +14,6 @@ public class MainController {
 
     @GetMapping("/calculator")
     public String calculator(@RequestParam int numA, @RequestParam int numB) {
-        return Integer.toString(numA + numB);
+        return Integer.toString(numA - numB);
     }
 }
