@@ -24,6 +24,7 @@ public class MainControllerIntegrationTest {
                 .andExpect(MockMvcResultMatchers.content().string("pong"));
     }
 
+
     @DisplayName("calculator controller test")
     @Test
     void controllerOK() throws Exception {
