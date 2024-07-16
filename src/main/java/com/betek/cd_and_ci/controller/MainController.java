@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/ping")
     public String ping() {
-        return "pong"
+        return "pong";
     }
 
     @GetMapping("/calculator")
